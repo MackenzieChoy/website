@@ -5,11 +5,16 @@ import NavBar from '../NavBar/NavBar'
 import Footer from '../Footer/Footer'
 
 export default function Layout({ children }) {
+  const links = [
+    { text: 'Home', href: '/' },
+    { text: 'About', href: '/about' },
+  ]
+
   return (
-    <>
-      <NavBar />
-      <main>{children}</main>
+    <div className="flex flex-col h-screen justify-between">
+      <NavBar links={links} />
+      <main className="lg:px-36">{children}</main>
       <Footer />
-    </>
+    </div>
   )
 }
