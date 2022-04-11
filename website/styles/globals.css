@@ -18,3 +18,28 @@ a {
 * {
   box-sizing: border-box;
 }
+@layer base {
+  :root {
+    --color-text-primary: #000000;
+    --color-text-secondary: #efef;
+
+    --color-button-primary: #14213d;
+    --color-button-primary-hover: #d78703;
+    --color-button-secondary: #fca311;
+
+    --color-fill-primary: #ffffff;
+    --color-fill-secondary: #e5e5e5;
+  }
+
+  .theme-elegant {
+    --color-text-primary: #000000;
+    --color-text-secondary: #efef;
+
+    --color-button-primary: #14213d;
+    --color-button-primary-hover: #d78703;
+    --color-button-secondary: #fca311;
+
+    --color-fill-primary: #000000;
+    --color-fill-secondary: #e5e5e5;
+  }
+}
