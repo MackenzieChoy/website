@@ -16,6 +16,9 @@ module.exports = {
           'button-primary-hover': 'var(--color-button-primary-hover)',
         },
       },
+      fontFamily: {
+        skin: ['var(--font-family)'],
+      },
     },
   },
   plugins: [],
