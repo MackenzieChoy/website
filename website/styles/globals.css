@@ -32,7 +32,7 @@ a {
   }
 
   .theme-elegant {
-    --color-text-primary: #000000;
+    --color-text-primary: #fff;
     --color-text-secondary: #efef;
 
     --color-button-primary: #14213d;
@@ -41,5 +41,6 @@ a {
 
     --color-fill-primary: #000000;
     --color-fill-secondary: #e5e5e5;
+    --font-family: 'Brush Script MT', cursive;
   }
 }

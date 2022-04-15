@@ -3,7 +3,6 @@
  */
 import NavBar from '../NavBar/NavBar';
 import Footer from '../Footer/Footer';
-
 export default function Layout({ children }) {
   const links = [
     { text: 'Home', href: '/' },
@@ -11,7 +10,7 @@ export default function Layout({ children }) {
   ];
 
   return (
-    <div className="font-skin theme-elegant flex flex-col h-screen justify-between">
+    <div className="theme-elegant font-skin flex flex-col justify-between">
       <NavBar links={links} />
       <main className="lg:px-36">{children}</main>
       <Footer />
